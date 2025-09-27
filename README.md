@@ -1,31 +1,40 @@
 # MagicBricks 1BHK Rental Listings Scraper
 
-Automated extraction of 1BHK rental property listings from MagicBricks using Python and BeautifulSoup.
+Automated extraction of 1BHK rental property listings from **MagicBricks** using Python and BeautifulSoup.
 
 ## Tech Stack
 - Python
-- Requests, BeautifulSoup4
-- CSV module
+- Libraries: `requests`, `BeautifulSoup4`
+- CSV module for structured data storage
 
 ## Project Overview
-This project scrapes rental property data from MagicBricks, including Price, Carpet Area, Furnished status, Tenant type, Bathroom, and Status, and stores it in a structured CSV file for analysis.
+This project scrapes rental property data from MagicBricks, including:
+- Price
+- Carpet Area
+- Furnished Status
+- Tenant Type
+- Number of Bathrooms
+- Listing Status
+
+The data is saved in a structured CSV file, ready for analysis.
 
 ## Workflow
-- Sent HTTP requests to MagicBricks listings with proper headers
-- Parsed HTML and extracted relevant property details
-- Structured and saved the extracted data into a CSV file
+1. Send HTTP requests to MagicBricks listings with proper headers.
+2. Parse HTML and extract relevant property details.
+3. Structure and save the extracted data into a CSV file.
 
 ## Highlights
 - Automated data collection from MagicBricks listings
 - Cleaned and structured dataset ready for analysis
-- Enabled exploration of real estate trends and pricing patterns
+- Enables exploration of real estate trends and pricing patterns
 
 ## How to Run
-Clone this repository:
-
+1. Clone this repository:
 ```bash
 git clone https://github.com/Divya6859/magicbricks-scraper.git
 cd magicbricks-scraper
 
 pip install -r requirements.txt
-python WebScrap_RealEstateData.py
+python scripts/WebScrap_RealEstateData.py
+
+See the included notebook for data exploration: `notebook/RealEstateData.ipynb`
