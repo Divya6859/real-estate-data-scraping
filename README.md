@@ -28,17 +28,18 @@ The data is saved in a structured CSV file, ready for analysis.
 - Cleaned and structured dataset ready for analysis
 - Enables exploration of real estate trends and pricing patterns
 
+
 ## How to Run
-1. Clone this repository:
+
+### 1. Clone this repository
 ```bash
 git clone https://github.com/Divya6859/magicbricks-scraper.git
 cd magicbricks-scraper
 
-**#Install dependencies**
 pip install -r requirements.txt
 
-**#Run the scraper**
 python scripts/WebScrap_RealEstateData.py
 
-**#Explore the data using the notebook**
-See the included notebook for data exploration: `notebook/RealEstateData.ipynb`
+##  Explore the data
+Open the included notebook to analyze and visualize the scraped data:  
+`notebook/RealEstateData.ipynb`
