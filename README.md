@@ -28,5 +28,4 @@ git clone https://github.com/Divya6859/magicbricks-scraper.git
 cd magicbricks-scraper
 
 pip install -r requirements.txt
-python scripts/magicbricks_scraper.py
-
+python WebScrap_RealEstateData.py
