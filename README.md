@@ -34,7 +34,11 @@ The data is saved in a structured CSV file, ready for analysis.
 git clone https://github.com/Divya6859/magicbricks-scraper.git
 cd magicbricks-scraper
 
+Install dependencies
 pip install -r requirements.txt
+
+Run the scraper
 python scripts/WebScrap_RealEstateData.py
 
+Explore the data using the notebook
 See the included notebook for data exploration: `notebook/RealEstateData.ipynb`
