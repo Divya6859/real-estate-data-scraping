@@ -33,8 +33,8 @@ The data is saved in a structured CSV file, ready for analysis.
 
 ### 1. Clone this repository
 ```bash
-git clone https://github.com/Divya6859/magicbricks-scraper.git
-cd magicbricks-scraper
+git clone https://github.com/Divya6859/real-estate-data-scraping.git
+cd real-estate-data-scraping
 
 pip install -r requirements.txt
 
