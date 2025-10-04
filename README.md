@@ -1,4 +1,4 @@
-# MagicBricks 1BHK Rental Listings Scraper
+# Real Estate Data Scraping
 
 Automated extraction of 1BHK rental property listings from **MagicBricks** using Python and BeautifulSoup.
 
@@ -29,17 +29,11 @@ The data is saved in a structured CSV file, ready for analysis.
 - Enables exploration of real estate trends and pricing patterns
 
 
-## How to Run
+## How to Run Projects
 
-### 1. Clone this repository
+All projects are developed in **Google Colab** and can be run online easily.
+
+1. Clone this repository:  
 ```bash
 git clone https://github.com/Divya6859/real-estate-data-scraping.git
-cd real-estate-data-scraping
-
-pip install -r requirements.txt
-
-python scripts/WebScrap_RealEstateData.py
-
-##  Explore the data
-Open the included notebook to analyze and visualize the scraped data:  
-`notebook/RealEstateData.ipynb`
+```
